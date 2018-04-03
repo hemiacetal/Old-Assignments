@@ -1,9 +1,3 @@
-/*
- *
- * Solving the farmer problem with Prolog. 
- *
- */
-
 % All facts needed for every valid state possible. States are in form
 % "Farmer, Goat, Wolf, Cabbage" with values e or w, as stated within the
 % assignment specifications.
