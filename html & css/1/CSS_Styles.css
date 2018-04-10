@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{
+	line-height:20px;
+	background-image: url(background.png);
+	background-repeat: repeat;
+	margin:0 auto 0 auto;
+}
+
+.wrapper{
+	width: 900px;
+	height: 790px;
+    margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	align:center;
+	border-width: 1px;
+	border-style:solid;	
+	background-color:#FFF;
+}
+	
+.header {
+	width:900;
+	height:150;
+}
+
+.content{
+	float:right;
+	width:599px;
+	height:579px;
+	padding-top:50px;
+	padding-left:30px;
+	background-image:url(content_bg.png);
+	background-color:#FFF;
+	font-family: "Tw Cen MT";
+	
+	/* Although this does not work in any other browser, it works in IE. Meh. */
+	scrollbar-base-color: #757575;
+	scrollbar-arrow-color: #EFEFEF;
+	scrollbar-3dlight-color: #757575;
+	scrollbar-darkshadow-color: #757575;
+	scrollbar-shadow-color: #757575;
+	scrollbar-highlight-color: #757575;
+	scrollbar-track-color: #919191;
+}
+
+.content a {
+text-decoration:none;
+color:#DDDDDD;
+text-align:left;
+}
+
+.content a:hover {
+	background-color:#cccccc;
+	color:#333;
+}
+
+.content a img{
+border:none;
+}
+
+.scroll{
+	height:120px;
+	width:98%;
+	font:16px/24px Tw Cen MT;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	border-style:dashed;
+	border-width:1px;
+}
+
+.sidebar {
+	width: 235px; 
+	height:200px;
+	background-color:#FFF;
+	background-image:url(sidebar_bg.jpg);
+	background-position:top-right;
+	float:left;
+	padding-top:20px;
+	padding-left:20px;
+	font-family: "Tw Cen MT";
+}
+
+.nav{
+
+	width:215px;
+	height: auto;
+}
+
+.nav ul{
+	list-style-type:none;
+	margin:0;
+padding:0;
+}
+
+.nav li {
+display:inline;
+margin:0;
+padding:0;
+}
+
+.nav a {
+	border-width: 1px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+display:block;
+width:200px;
+padding:0px 0px 0px 10px;
+margin:3px 3px 0px 3px;
+line-height:30px;
+background-color:#8358688;
+text-decoration:none;
+color:#FFF;
+text-align:left;
+}
+
+.nav a:hover {
+	text-align:right;
+	text-decoration:none;
+	display:block;
+	width:200px;
+	padding:0px 10px 0px 0px;
+	margin:3px 3px 0px 3px;
+	margin-top:3px;
+	line-height:30px;
+	background-color:#cccccc;
+	color:#333;
+}
+
+.selection{
+
+	width:215px;
+	height: auto;
+}
+
+.selection ul{
+	list-style-type:none;
+	margin:0;
+padding:0;
+}
+
+.selection li {
+display:inline;
+margin:0;
+padding:0;
+}
+
+.selection a {
+		border-width: 1px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-color:;
+	text-align:right;
+	text-decoration:none;
+	display:block;
+	width:200px;
+	padding:0px 10px 0px 0px;
+	margin:3px 0 0 3px;
+	line-height:30px;
+	background-color:#bbbbbb;
+	color:#FFF;
+}
+
+.selection a:hover {
+	text-align:right;
+	text-decoration:none;
+	display:block;
+	width:200px;
+	padding:0px 10px 0px 0px;
+	margin:3px 0 0 3px;
+	line-height:30px;
+	background-color:#bbbbbb;
+	color:#FFF;
+}
+
+.sidetext {
+	width: 195px; 
+	height: 289px;
+	background-color:#FFF;
+	background-image:url(sidetext_bg.jpg);
+	background-position:top-right;
+	float:left;
+	padding-top:60px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:60px;
+	font-family: "Tw Cen MT";
+}
+
+.sidetext a {
+text-decoration:none;
+color:#FFF;
+}
+
+.sidetext a:hover {
+text-decoration:none;
+color:#FFF;
+}
+
+.footer{
+	background-color:#979899;
+	width:880px;
+	padding: 0 0 0 20px;
+	margin: 20px auto 0px auto;
+	border-width: 1px;
+	border-style:solid;
+	border-color:;
+}
