@@ -4,4 +4,4 @@
 
 3. I believe this was a solution for a question in a part of a programming competition that was done in high school. Word cyphers??? I do not remember the year, nor do I remember the name of the contest. Whoops.
 4. Checks whether or not an input string is a palindrome.
-5. A tic-tac-toe game that is played solely through the console.
+5. A tic-tac-toe game that is played solely through the console. One requirement was also to add an file i/o thing for ASCII pictures.
